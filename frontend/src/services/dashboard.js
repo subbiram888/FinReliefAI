@@ -1,19 +1,20 @@
-import axios from "axios";
+import api from "./api";
 
-const API = "http://127.0.0.1:8000";
+export const getProfile = async () => {
 
-export const getDashboard = async () => {
+    const response = await api.get("/profile");
 
-    const token = localStorage.getItem("token");
+    return response.data;
 
-    const response = await axios.get(
-        `${API}/dashboard`,
-        {
-            headers: {
-                Authorization: `Bearer ${token}`,
-            },
-        }
+};
+
+export const updateProfile = async (profile) => {
+
+    const response = await api.put(
+        "/update-profile",
+        profile
     );
 
     return response.data;
+
 };
