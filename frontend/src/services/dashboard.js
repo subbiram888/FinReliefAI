@@ -1,20 +1,6 @@
 import api from "./api";
 
-export const getProfile = async () => {
-
-    const response = await api.get("/profile");
-
+export const getDashboard = async () => {
+    const response = await api.get("/dashboard");
     return response.data;
-
-};
-
-export const updateProfile = async (profile) => {
-
-    const response = await api.put(
-        "/update-profile",
-        profile
-    );
-
-    return response.data;
-
 };
