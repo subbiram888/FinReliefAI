@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+
 # Database
 from app.database.database import Base, engine
 
@@ -27,29 +28,40 @@ from app.routers.history import router as history_router
 app = FastAPI(
     title="FinRelief AI 🚀",
     description="AI Powered Debt Relief & Financial Recovery Platform",
-    version="1.0.0"
+    version="1.0.0",
 )
+
+# ==========================
+# CORS Configuration
+# ==========================
 
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "http://127.0.0.1:5173"
-        "https://YOUR-VERCEL-APP.vercel.app"
+        "http://127.0.0.1:5173",
+        "https://fin-relief-ai-nu.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
+# ==========================
+# Root Route
+# ==========================
+
 @app.get("/")
 def root():
     return {
         "message": "Welcome to FinRelief AI 🚀",
-        "status": "Running"
+        "status": "Running",
     }
 
+# ==========================
 # Register Routers
+# ==========================
+
 app.include_router(auth_router)
 app.include_router(user_router)
 app.include_router(loan_router)
