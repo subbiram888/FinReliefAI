@@ -1,0 +1,59 @@
+.profile-card {
+
+    background: #141b2d;
+
+    margin: 30px;
+
+    padding: 30px;
+
+    border-radius: 22px;
+
+    border: 1px solid #232c42;
+
+}
+
+.profile-card h2 {
+
+    font-size: 24px;
+
+    margin-bottom: 25px;
+
+}
+
+.profile-grid {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 30px;
+
+}
+
+.profile-grid p {
+
+    color: #94a3b8;
+
+    margin-bottom: 5px;
+
+    font-size: 20px;
+
+}
+
+.profile-grid h3 {
+
+    font-size: 20px;
+
+}
+
+.green {
+
+    color: #10b981;
+
+}
+
+.orange {
+
+    color: #f59e0b;
+
+}

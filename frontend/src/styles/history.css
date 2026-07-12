@@ -1,0 +1,58 @@
+.history-container {
+    padding: 35px;
+}
+
+.history-title {
+    font-size: 48px;
+    color: white;
+}
+
+.history-subtitle {
+    color: #94a3b8;
+    margin-bottom: 35px;
+}
+
+.history-card {
+    background: #141b2d;
+    border: 1px solid #27344d;
+    border-radius: 18px;
+    padding: 30px;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.history-table th {
+    color: #94a3b8;
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #2d3b55;
+}
+
+.history-table td {
+    padding: 18px 15px;
+    border-bottom: 1px solid #2d3b55;
+    color: white;
+}
+
+.badge {
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+}
+
+.success {
+    background: #10b981;
+}
+
+.pending {
+    background: #f59e0b;
+}
+
+.failed {
+    background: #ef4444;
+}

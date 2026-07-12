@@ -1,0 +1,128 @@
+.rights-container {
+    padding: 35px;
+    color: white;
+}
+
+.rights-title {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rights-subtitle {
+    color: #94a3b8;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.rights-card {
+    background: #131c2f;
+    border: 1px solid #243047;
+    border-radius: 16px;
+    padding: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .25);
+    transition: 0.3s;
+}
+
+.rights-card:hover {
+    border-color: #3b82f6;
+    transform: translateY(-2px);
+}
+
+.rights-card h2 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 26px;
+}
+
+.rights-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.rights-card li {
+    padding: 12px 0;
+    border-bottom: 1px solid #1f2937;
+    color: #cbd5e1;
+    line-height: 1.6;
+}
+
+.rights-card li:last-child {
+    border-bottom: none;
+}
+
+.ai-tip {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #10b981;
+    background: rgba(16, 185, 129, .08);
+    padding: 18px;
+    border-radius: 12px;
+    border-left: 5px solid #10b981;
+}
+
+.rights-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.rights-table th {
+    background: #1d4ed8;
+    color: white;
+    padding: 14px;
+    text-align: left;
+}
+
+.rights-table td {
+    padding: 14px;
+    border-bottom: 1px solid #253247;
+    color: #cbd5e1;
+}
+
+.rights-table tr:hover {
+    background: rgba(59, 130, 246, .08);
+}
+
+.faq-item {
+    margin-top: 15px;
+    background: #0f172a;
+    border-radius: 10px;
+    padding: 15px;
+    border: 1px solid #243047;
+}
+
+.faq-item summary {
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.faq-item p {
+    margin-top: 15px;
+    color: #cbd5e1;
+    line-height: 1.7;
+}
+
+@media (max-width:900px) {
+
+    .rights-container {
+        padding: 20px;
+    }
+
+    .rights-title {
+        font-size: 32px;
+    }
+
+    .rights-card {
+        padding: 18px;
+    }
+
+    .rights-table {
+        font-size: 14px;
+    }
+
+}

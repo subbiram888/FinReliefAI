@@ -1,0 +1,24 @@
+# Environment
+.env
+
+# Database
+*.db
+finrelief
+finrelief.db
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db

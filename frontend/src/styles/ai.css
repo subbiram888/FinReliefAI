@@ -1,0 +1,78 @@
+.ai-container {
+    padding: 30px;
+    color: white;
+}
+
+.ai-title {
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.ai-subtitle {
+    color: #94a3b8;
+    margin-bottom: 30px;
+}
+
+.ai-card {
+    background: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 25px;
+}
+
+.ai-card h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.loan-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.loan-grid p {
+    color: #94a3b8;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.loan-grid h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.strategy-box {
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.strategy-box pre {
+    color: #e5e7eb;
+    font-size: 15px;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: inherit;
+}
+
+.generate-btn {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.generate-btn:hover {
+    background: #1d4ed8;
+}

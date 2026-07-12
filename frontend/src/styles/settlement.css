@@ -1,0 +1,61 @@
+.settlement-container {
+    padding: 35px;
+}
+
+.settlement-title {
+    font-size: 48px;
+    color: white;
+}
+
+.settlement-subtitle {
+    color: #94a3b8;
+    margin-bottom: 35px;
+}
+
+.settlement-card {
+    background: #141b2d;
+    border: 1px solid #27344d;
+    border-radius: 18px;
+    padding: 30px;
+    max-width: 650px;
+}
+
+.settlement-card input {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    background: #1f2937;
+    color: white;
+    font-size: 16px;
+}
+
+.predict-btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    background: #2563eb;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.result-card {
+    margin-top: 30px;
+    background: #182235;
+    border-radius: 18px;
+    padding: 25px;
+}
+
+.result-card h2 {
+    color: #10b981;
+    font-size: 38px;
+}
+
+.result-card p {
+    color: #d1d5db;
+    margin-top: 10px;
+}
